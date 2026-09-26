@@ -25,10 +25,13 @@ export class AppComponent {
     { name: 'Frameworks', icon: '02', skills: ['Spring Boot', 'Angular', 'Tailwind CSS'] },
     { name: 'Architecture', icon: '03', skills: ['Microservices'] },
     { name: 'Tools', icon: '04', skills: [] },
+    { name: 'Testing Tool', icon: '05', skills: ['Junit5', 'Mockito'] },
     { name: 'CI/CD Tool', icon: '05', skills: ['GitHub Actions'] },
-    { name: 'Deployment', icon: '06', skills: ['AWS'] },
+    { name: 'Deployment AWS Services', icon: '06', skills: ['AWS'] },
     { name: 'Messaging System', icon: '07', skills: ['Apache Kafka'] }
   ];
+
+  awsServices = ['IAM', 'EC2', 'EBS', 'S3', 'RDS', 'Lambda Function', 'CloudWatch', 'SQS', 'SNS', 'Route53'];
 
   projects = [
     { number: '01', title: 'Multi Step Form', subtitle: 'Angular Template-Driven Form with Query Management', description: 'A full-stack student portal that brings personal, educational, image, and document forms together with secure query management.', stack: 'Angular / Spring Boot / MySQL / STS / VS Code', link: 'https://drive.google.com/file/d/1CczV4u5vpE-EqRrKERlb34cU9MIz6ObL/view', github: 'https://github.com/kpk2714/multi-step-form', secondaryLink: 'https://github.com/kpk2714/multi-step-form-backend', image: 'multi-step-form.png', tone: 'mint', details: ['Template-driven student forms for personal and educational data', 'Email notifications for query submissions and replies', 'Token service, route guards, and 30-minute auto logout'] },
